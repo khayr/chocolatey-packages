@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>bitcomet</id>
+    <title>BitComet</title>
+    <version>1.47</version>
+    <authors>BitComet</authors>
+    <owners>BitComet</owners>
+    <summary>BitComet is a free BitTorrent download client.</summary>
+    <description>BitComet is a free BitTorrent download client.</description>
+    <projectUrl>https://www.bitcomet.com/en</projectUrl>
+    <tags>bitcomet bittorrent torrent download</tags>
+    <copyright></copyright>
+    <licenseUrl>https://www.bitcomet.com/en/license</licenseUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <iconUrl>https://github.com/khayr/chocolatey-packages/raw/master/bitcomet/logo.png</iconUrl>
+    <!--<dependencies>
+      <dependency id="" version="" />
+    </dependencies>-->
+    <releaseNotes></releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+    <!--<file src="content\**" target="content" />-->
+  </files>
+</package>
