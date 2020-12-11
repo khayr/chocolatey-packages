@@ -1,11 +1,17 @@
-﻿#try {
-  $downUrl = 'https://download.bitcomet.com/achive/BitComet_1.47_setup.exe'
-  # installer, will assert administrative rights
-  Install-ChocolateyPackage 'bitcomet' 'EXE' '/S' "$downUrl" -validExitCodes @(0)
-  
-  # the following is all part of error handling
-  #Write-ChocolateySuccess 'bitcomet'
-#} catch {
-  #Write-ChocolateyFailure 'bitcomet' "$($_.Exception.Message)"
-  #throw 
-#}
+﻿$ErrorActionPreference = 'Stop'; # stop on all errors
+
+$url        = 'https://download.bitcomet.com/achive/BitComet_1.73_setup.exe'
+$packageArgs = @{
+  softwareName  = 'BitComet*'
+  packageName   = $env:ChocolateyPackageName
+  fileType      = 'EXE'
+  url           = $url
+
+  checksum      = '7a043849e07849e5255f8019ee6e21d89cb5182406211f6dabf21915ebe4aef3'
+  checksumType  = 'sha256'
+
+  silentArgs    = '/S'
+  validExitCodes= @(0)
+}
+
+Install-ChocolateyPackage @packageArgs
