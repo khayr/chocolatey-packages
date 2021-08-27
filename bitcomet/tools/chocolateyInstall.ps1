@@ -1,4 +1,4 @@
-﻿$ErrorActionPreference = 'Stop'; # stop on all errors
+﻿$ErrorActionPreference = 'Stop';
 
 $url        = 'https://download.bitcomet.com/achive/BitComet_1.77_setup.exe'
 $packageArgs = @{
