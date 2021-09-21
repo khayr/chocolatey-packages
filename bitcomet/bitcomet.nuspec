@@ -3,7 +3,7 @@
   <metadata>
     <id>bitcomet</id>
     <title>BitComet</title>
-    <version>1.78</version>
+    <version>1.79</version>
     <authors>BitComet</authors>
     <owners>KhayR</owners>
 	<licenseUrl>https://www.bitcomet.com/en/license</licenseUrl>
@@ -12,8 +12,13 @@
 	<requireLicenseAcceptance>false</requireLicenseAcceptance>
 	<description>BitComet is a free BitTorrent download client.</description>
     <summary>BitComet is a free BitTorrent download client.</summary>
-    <releaseNotes/>
+    <releaseNotes>https://www.bitcomet.com/en/changelog</releaseNotes>
     <copyright/>
 	<tags>bitcomet bittorrent torrent download</tags>
+	<projectSourceUrl/>
+	<packageSourceUrl>https://github.com/khayr/chocolatey-packages/tree/master/bitcomet</packageSourceUrl>
+	<docsUrl>http://wiki.bitcomet.com/</docsUrl>
+    <mailingListUrl>https://www.cometforums.com/</mailingListUrl>
+    <bugTrackerUrl>https://www.cometforums.com/</bugTrackerUrl>
   </metadata>
 </package>

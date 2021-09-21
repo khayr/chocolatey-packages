@@ -1,13 +1,13 @@
 ﻿$ErrorActionPreference = 'Stop';
 
-$url        = 'https://download.bitcomet.com/achive/BitComet_1.78_setup.exe'
+$url        = 'https://download.bitcomet.com/achive/BitComet_1.79_setup.exe'
 $packageArgs = @{
   softwareName  = 'BitComet*'
   packageName   = $env:ChocolateyPackageName
   fileType      = 'EXE'
   url           = $url
 
-  checksum      = '352b5e32d2f585d81eebc778329bc37f76e5a9ef1c194eda54ed77f9918d545c'
+  checksum      = '6860cdfd193b7f483375c2e2a70e1e3ec6601d917e29fb37fb5d8e7539722008'
   checksumType  = 'sha256'
 
   silentArgs    = '/S'
