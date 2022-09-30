@@ -3,7 +3,7 @@
   <metadata>
     <id>bitcomet</id>
     <title>BitComet</title>
-    <version>1.79</version>
+    <version>1.94</version>
     <authors>BitComet</authors>
     <owners>KhayR</owners>
 	<licenseUrl>https://www.bitcomet.com/en/license</licenseUrl>
@@ -15,8 +15,8 @@
     <releaseNotes>https://www.bitcomet.com/en/changelog</releaseNotes>
     <copyright/>
 	<tags>bitcomet bittorrent torrent download</tags>
-	<projectSourceUrl/>
 	<packageSourceUrl>https://github.com/khayr/chocolatey-packages/tree/master/bitcomet</packageSourceUrl>
+	<projectSourceUrl>https://www.cometforums.com/</projectSourceUrl>
 	<docsUrl>http://wiki.bitcomet.com/</docsUrl>
     <mailingListUrl>https://www.cometforums.com/</mailingListUrl>
     <bugTrackerUrl>https://www.cometforums.com/</bugTrackerUrl>
